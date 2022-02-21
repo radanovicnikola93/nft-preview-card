@@ -22,9 +22,11 @@ body {
     border-radius: 1rem; }
   .card .card--content h1 {
     color: white;
+    font-size: 1.5rem;
     font-weight: 600; }
   .card .card--content > p {
-    color: #8bacda; }
+    color: #8bacda;
+    font-weight: 300; }
   .card .card--content .card--content--info {
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +42,7 @@ body {
         width: 1rem;
         height: 1rem; }
       .card .card--content .card--content--info .card--content--info--price p {
-        font-weight: 300;
+        font-weight: 400;
         color: #00fff7; }
     .card .card--content .card--content--info .card--content--info--time {
       display: flex;

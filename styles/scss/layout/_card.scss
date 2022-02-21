@@ -23,10 +23,13 @@
     .card--content {
         h1 {
             color: $white;
+            font-size: 1.5rem;
             font-weight: $fw-600;
         }
         > p {
             color: $soft-blue;
+            font-weight: $fw-300;
+
         }
 
         // card--content--info
@@ -48,7 +51,7 @@
                     height: 1rem;
                 }
                 p {
-                    font-weight: $fw-300;
+                    font-weight: $fw-400;
                     color: $cyan;
                 }
             }
