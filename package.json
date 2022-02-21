@@ -1,0 +1,28 @@
+{
+  "name": "nft-preview-card",
+  "version": "1.0.0",
+  "description": "A frontendmentor.io challenge",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w styles/scss/ -o styles/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radanovicnikola93/nft-preview-card.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "sass"
+  ],
+  "author": "Nikola Radanovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radanovicnikola93/nft-preview-card/issues"
+  },
+  "homepage": "https://github.com/radanovicnikola93/nft-preview-card#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
