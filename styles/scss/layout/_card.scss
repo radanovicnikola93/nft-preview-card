@@ -18,4 +18,82 @@
             border-radius: 1rem;
         }
     }
+
+    // card--content
+    .card--content {
+        h1 {
+            color: $white;
+            font-weight: $fw-600;
+        }
+        > p {
+            color: $soft-blue;
+        }
+
+        // card--content--info
+        .card--content--info {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+
+            // card--content--info--price
+            .card--content--info--price {
+                display: flex;
+                align-items: center;
+                img {
+                    margin-right: 0.5rem;
+                    font-weight: $fw-300;
+                    width: 1rem;
+                    height: 1rem;
+                }
+                p {
+                    font-weight: $fw-300;
+                    color: $cyan;
+                }
+            }
+
+            // card--content--info--time
+            .card--content--info--time {
+                display: flex;
+                align-items: center;
+                img {
+                    margin-right: 0.5rem;
+                    font-weight: $fw-300;
+                    width: 1rem;
+                    height: 1rem;
+                }
+                p {
+                    font-weight: $fw-300;
+                    color: $soft-blue;
+                }
+            }
+        }
+    }
+
+    .card--line {
+        height: 1px;
+        background-color: $dark-blue-line;
+        width: 100%;
+    }
+
+    .card--author {
+        display: flex;
+        align-items: center;
+
+        img {
+            border: 2px solid $white;
+            border-radius: 50%;
+            height: 1.6rem;
+            margin-right: 1rem;
+        }
+
+        p {
+            color: $white;
+
+            span {
+                color: $soft-blue;
+            }
+        }
+    }
 }
