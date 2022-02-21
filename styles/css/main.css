@@ -1,16 +1,21 @@
 body {
   background-color: #0d192b;
   height: 100vh;
+  font-family: "Outfit", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center; }
 
 .card {
   background-color: #14253d;
-  height: 30rem;
+  height: 40rem;
   width: 20rem;
   padding: 1.2rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start; }
+  .card .card--image img {
+    width: 100%;
+    border-radius: 1rem; }
