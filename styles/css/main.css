@@ -4,3 +4,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.card {
+  background-color: #14253d;
+  height: 30rem;
+  width: 20rem;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start; }
