@@ -33,7 +33,7 @@ body {
       width: 100%;
       border-radius: 1rem; }
     .card .card--image a:hover::after {
-      content: url(../../../images/icon-view.svg);
+      content: url(./images/icon-view.svg);
       position: absolute;
       left: 50%;
       top: 50%;
