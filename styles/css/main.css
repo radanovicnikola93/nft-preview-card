@@ -21,9 +21,13 @@ body {
     width: 100%;
     border-radius: 1rem; }
   .card .card--content h1 {
-    color: white;
     font-size: 1.5rem;
     font-weight: 600; }
+    .card .card--content h1 a {
+      text-decoration: none;
+      color: white; }
+      .card .card--content h1 a:hover {
+        color: #00fff7; }
   .card .card--content > p {
     color: #8bacda;
     font-weight: 300; }
@@ -39,10 +43,13 @@ body {
       border-radius: 50%;
       height: 1.6rem;
       margin-right: 1rem; }
-    .card .card--author p {
-      color: white; }
-      .card .card--author p span {
-        color: #8bacda; }
+    .card .card--author p a {
+      color: white;
+      text-decoration: none; }
+      .card .card--author p a:hover {
+        color: #00fff7; }
+    .card .card--author p span {
+      color: #8bacda; }
 
 .card .card--content .card--content--info {
   display: flex;
