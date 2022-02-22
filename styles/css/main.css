@@ -17,9 +17,27 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start; }
-  .card .card--image img {
-    width: 100%;
-    border-radius: 1rem; }
+  .card .card--image a {
+    display: block;
+    position: relative; }
+    .card .card--image a img {
+      width: 100%;
+      border-radius: 1rem; }
+    .card .card--image a:hover::before {
+      content: "";
+      background: #00fff7;
+      opacity: 50%;
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      border-radius: 1rem; }
+    .card .card--image a:hover::after {
+      content: url(../../../images/icon-view.svg);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%); }
   .card .card--content h1 {
     font-size: 1.5rem;
     font-weight: 600; }
