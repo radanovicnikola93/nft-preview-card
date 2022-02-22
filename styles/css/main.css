@@ -29,7 +29,7 @@ body {
       opacity: 50%;
       position: absolute;
       left: 0;
-      height: 100%;
+      height: 99%;
       width: 100%;
       border-radius: 1rem; }
     .card .card--image a:hover::after {
