@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://radanovicnikola93.github.io/nft-preview-card/)
+- Live Site URL: [NTF Preview Card](https://radanovicnikola93.github.io/nft-preview-card/)
 
 ### Built with
 
